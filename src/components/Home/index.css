@@ -1,0 +1,70 @@
+.home-route-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #2e1a50;
+  padding: 20px;
+}
+@media screen and (min-width: 576px) {
+  .header-container {
+    padding: 20px 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header-container {
+    padding: 20px 80px;
+  }
+}
+
+.app-logo-image {
+  width: 100px;
+}
+
+.logout-button {
+  background-color: rgb(143, 10, 125);
+  color: white;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  border-right: solid 2px rgb(209, 139, 200);
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 30px 20px;
+  background-image: linear-gradient(to bottom, #401761, #1c3269, #152850);
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+.app-heading {
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+}
+@media screen and (min-width: 576px) {
+  .app-heading {
+    margin-top: 30px;
+  }
+}
+
+.visa-card-image {
+  width: 90%;
+  padding: 10px;
+  max-width: 600px;
+}

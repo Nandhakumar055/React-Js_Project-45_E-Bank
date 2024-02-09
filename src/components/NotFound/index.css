@@ -1,0 +1,23 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.not-found-image {
+  width: 100%;
+  padding: 10px;
+  max-width: 450px;
+}
+
+.not-found-msg {
+  font-size: 20px;
+}
+
+.not-found-error-msg {
+  font-size: 15px;
+  text-align: center;
+}

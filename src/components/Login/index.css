@@ -1,0 +1,119 @@
+.login-route-container {
+  min-height: 100vh;
+  max-height: 100%;
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #152850;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card-container {
+  border-radius: 20px;
+  width: 90%;
+  background-image: linear-gradient(rgb(175, 174, 174), white);
+}
+
+.login-banner-image {
+  width: 100%;
+  padding: 20px;
+}
+
+.login-container {
+  width: 100%;
+  padding: 15px;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.greeting-text {
+  font-size: 20px;
+}
+
+.input-label {
+  font-size: 12px;
+  font-weight: 500;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.user-input {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: none;
+  border: solid rgb(143, 142, 142) 2px;
+  outline: none;
+}
+
+.login-button {
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  align-self: center;
+  margin-top: 20px;
+  background-color: #152850;
+  color: white;
+  border: none;
+}
+
+.error-msg {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .login-container {
+    padding: 25px;
+  }
+  .greeting-text {
+    font-size: 30px;
+  }
+  .input-label {
+    font-size: 15px;
+  }
+  .user-input {
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .login-card-container {
+    display: flex;
+    align-items: center;
+  }
+  .login-banner-image {
+    width: 50%;
+  }
+  .login-container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .login-banner-image {
+    height: 350px;
+  }
+  .login-card-container {
+    height: 100%;
+    width: 800px;
+    background-image: linear-gradient(to right, rgb(175, 174, 174), white);
+  }
+  .login-container {
+    height: 500px;
+    background-color: #b5b5b6;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .login-form-container {
+    width: 100%;
+  }
+}
